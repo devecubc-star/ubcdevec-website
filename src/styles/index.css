@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+@import './fonts.css';
+@plugin '@tailwindcss/typography';
+
+@theme {
+  /* Brand colors */
+  --color-navy: #0e437a;
+  --color-cardinal: #449afc;
+  --color-white: #fefeff;
+  --color-highlight: #e9d080;
+
+  /* Fonts. Components use font-sans / font-display / font-serif utility
+     classes, never a literal font name, so the eventual Agrandir /
+     Youngest Serif files (see src/assets/fonts/) are a one-line swap. */
+  --font-sans: 'Open Sauce Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Agrandir', 'Century Gothic', 'Futura', ui-sans-serif, sans-serif;
+  --font-serif: 'Youngest Serif', Georgia, 'Iowan Old Style', serif;
+}
+
+body {
+  @apply bg-white text-navy font-sans antialiased;
+}

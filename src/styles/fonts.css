@@ -1,0 +1,56 @@
+/* Open Sauce Sans — free/open-source (OFL-1.1), but the files aren't in
+   this repo yet (see src/assets/fonts/open-sauce/README.md for why and how
+   to add them). Falls through to the --font-sans fallback stack until
+   then, same as the two commercial fonts below. */
+@font-face {
+  font-family: 'Open Sauce Sans';
+  src: url('../assets/fonts/open-sauce/OpenSauceSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Open Sauce Sans';
+  src: url('../assets/fonts/open-sauce/OpenSauceSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Open Sauce Sans';
+  src: url('../assets/fonts/open-sauce/OpenSauceSans-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Open Sauce Sans';
+  src: url('../assets/fonts/open-sauce/OpenSauceSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Agrandir — commercial (Pangram Pangram), placeholder slot.
+   File does not exist yet; browsers silently fall through to the
+   --font-display fallback stack until it's added. See
+   src/assets/fonts/agrandir/README.md */
+@font-face {
+  font-family: 'Agrandir';
+  src: url('../assets/fonts/agrandir/Agrandir-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Youngest Serif — commercial (Pangram Pangram), placeholder slot.
+   File does not exist yet; browsers silently fall through to the
+   --font-serif fallback stack until it's added. See
+   src/assets/fonts/youngest-serif/README.md */
+@font-face {
+  font-family: 'Youngest Serif';
+  src: url('../assets/fonts/youngest-serif/YoungestSerif-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

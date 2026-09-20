@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Development Economics Club at the University of British Columbia."
+    />
+    <title>UBC Development Economics Club</title>
+    <!--
+      GitHub Pages is a static host with no server-side rewrites, so a
+      direct link/refresh to a client-routed path (e.g. /events) 404s.
+      public/404.html redirects those hits back here with the original
+      path stashed in the query string; this decodes it back into the URL
+      before React Router mounts. Standard SPA-on-GH-Pages fix.
+    -->
+    <script>
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, '', redirect);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

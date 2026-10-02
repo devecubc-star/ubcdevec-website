@@ -37,12 +37,12 @@ export function Header() {
           ))}
         </nav>
 
-        <NavLink
-          to={ROUTES.comingSoon}
+        <a
+          href="https://www.showpass.com/m/devec-membership/"
           className="hidden rounded-full bg-navy px-5 py-2 font-sans text-sm font-semibold text-white transition hover:bg-cardinal md:inline-block"
         >
-          Join the Club
-        </NavLink>
+          Join DEVEC
+        </a>
 
         <button
           type="button"
@@ -73,13 +73,13 @@ export function Header() {
               <span className="block py-2">{item.label}</span>
             </NavLink>
           ))}
-          <NavLink
-            to={ROUTES.comingSoon}
+          <a
+            href="https://www.showpass.com/m/devec-membership/"
             className="mt-2 rounded-full bg-navy px-5 py-2 text-center font-sans text-sm font-semibold text-white"
             onClick={() => setOpen(false)}
           >
-            Join the Club
-          </NavLink>
+            Join DEVEC
+          </a>
         </nav>
       )}
     </header>

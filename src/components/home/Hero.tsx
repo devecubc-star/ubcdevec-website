@@ -20,9 +20,9 @@ export function Hero() {
           We are UBC’s first club to bring together students from all disciplines to discuss the economic, social, and fiscal conditions of the developing world.
         </p>
         <div className="flex flex-wrap gap-4 pt-4">
-          <ComingSoonLink className="rounded-full bg-highlight px-6 py-3 font-sans text-sm font-semibold text-navy transition hover:opacity-90">
+          <a href="https://www.showpass.com/m/devec-membership/" className="rounded-full bg-highlight px-6 py-3 font-sans text-sm font-semibold text-navy transition hover:opacity-90">
             Become a Member
-          </ComingSoonLink>
+          </a>
           <ComingSoonLink
             to="/story"
             className="rounded-full border border-white/30 px-6 py-3 font-sans text-sm font-semibold text-white transition hover:bg-white/10"

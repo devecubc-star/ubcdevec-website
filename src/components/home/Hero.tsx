@@ -9,7 +9,10 @@ export function Hero() {
       <div className="absolute inset-0 bg-navy/65" />
       <div className="absolute inset-0 bg-linear-to-r from-navy/80 via-navy/35 to-transparent" />
       <div className="relative mx-auto flex w-full max-w-6xl flex-col items-start gap-6 px-6 py-28 sm:py-36">
-        <img src={ubcWordmark} alt="The University of British Columbia" className="h-auto w-1/2 max-w-56" />
+        <div className="relative aspect-[1788/166] font-brand text-4xl font-normal tracking-tight sm:text-6xl">
+          <span aria-hidden="true" className="invisible block h-0 overflow-hidden whitespace-nowrap">Understanding</span>
+          <img src={ubcWordmark} alt="The University of British Columbia" className="absolute inset-0 h-full w-full" />
+        </div>
         <h1 className="max-w-3xl font-brand text-4xl leading-[1.18] font-normal tracking-tight sm:text-6xl">
           Understanding our world through development economics.
         </h1>

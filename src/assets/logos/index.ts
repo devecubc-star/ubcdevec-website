@@ -2,7 +2,7 @@
 // across the whole site automatically — no code changes needed anywhere else.
 // See README.md in this folder for exact filenames.
 
-const files = import.meta.glob<{ default: string }>('./*.{svg,png}', {
+const files = import.meta.glob<{ default: string }>('./*.{svg,png,webp}', {
   eager: true,
 });
 

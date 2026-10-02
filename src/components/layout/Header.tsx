@@ -9,6 +9,7 @@ const NAV_ITEMS = [
   { label: 'Story', to: ROUTES.story },
   { label: 'Projects', to: ROUTES.projects },
   { label: 'Events', to: ROUTES.events },
+  { label: 'Team', to: ROUTES.team },
   { label: 'Lab', to: ROUTES.lab },
 ];
 
@@ -24,8 +25,8 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-navy/10 bg-white/90 backdrop-blur">
       <PageContainer className="flex h-20 items-center justify-between">
         <NavLink to={ROUTES.home} className="flex items-center gap-2" onClick={() => setOpen(false)}>
-          <Logo variant="mark" className="h-10 w-10" />
-          <span className="font-display text-lg font-bold text-navy">UBC DevEc</span>
+          <Logo variant="mark" className="h-10 w-10 object-contain" />
+          <span className="font-brand text-lg font-bold tracking-[0.08em] text-navy">UBC DEVEC</span>
         </NavLink>
 
         <nav className="hidden items-center gap-8 md:flex">

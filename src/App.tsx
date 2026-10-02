@@ -6,6 +6,7 @@ import { Story } from './pages/Story';
 import { Projects } from './pages/Projects';
 import { ProjectDetail } from './pages/ProjectDetail';
 import { Events } from './pages/Events';
+import { Team } from './pages/Team';
 import { Lab } from './pages/Lab';
 import { ComingSoon } from './pages/ComingSoon';
 import { NotFound } from './pages/NotFound';
@@ -22,6 +23,7 @@ export function App() {
           <Route path={ROUTES.projects} element={<Projects />} />
           <Route path="/projects/:slug" element={<ProjectDetail />} />
           <Route path={ROUTES.events} element={<Events />} />
+          <Route path={ROUTES.team} element={<Team />} />
           <Route path={ROUTES.lab} element={<Lab />} />
           <Route path={ROUTES.comingSoon} element={<ComingSoon />} />
           <Route path="*" element={<NotFound />} />

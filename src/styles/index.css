@@ -15,6 +15,7 @@
   --font-sans: 'Open Sauce Sans', ui-sans-serif, system-ui, sans-serif;
   --font-display: 'Agrandir', 'Century Gothic', 'Futura', ui-sans-serif, sans-serif;
   --font-serif: 'Youngest Serif', Georgia, 'Iowan Old Style', serif;
+  --font-brand: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 body {

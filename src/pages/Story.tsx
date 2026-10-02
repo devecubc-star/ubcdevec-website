@@ -12,7 +12,7 @@ export function Story() {
       <PageContainer className="pt-16">
         <SectionHeading
           eyebrow="Our Story"
-          title="A short history of human progress — and how far there still is to go"
+          title="A short history of human progress, and how far there is still to go"
           description="For nearly all of human history, most people everywhere lived in poverty most of us today would find unimaginable. That changed, recently and unevenly. This page is our attempt to show both halves of that story: how much better things have become, and how awful things can still be."
         />
       </PageContainer>

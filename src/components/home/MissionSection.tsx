@@ -11,7 +11,7 @@ export function MissionSection() {
           <span className="text-sm font-semibold tracking-wide text-highlight uppercase">Our Mission</span>
           <h2 className="font-display text-3xl font-bold sm:text-4xl">A community for those who care about development.</h2>
           <p className="text-base leading-relaxed text-white/85">
-            We bring development economics beyond the classroom, connecting like-minded, hardworking students
+            We bring development economics beyond the classroom, connecting like-minded students
             who are eager to learn. Together, we explore new ideas and apply our skills and experiences to a
             shared passion for development economics.
           </p>

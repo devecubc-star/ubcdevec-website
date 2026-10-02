@@ -16,7 +16,7 @@ export function Hero() {
         <h1 className="max-w-3xl font-brand text-4xl leading-[1.18] font-normal tracking-tight sm:text-6xl">
           Understanding our world through development economics.
         </h1>
-        <p className="max-w-xl font-sans text-lg text-white/80">
+        <p className="max-w-3xl font-sans text-lg text-balance text-white/80">
           We are UBC’s first club to bring together students from all disciplines to discuss the economic, social, and fiscal conditions of the developing world.
         </p>
         <div className="flex flex-wrap gap-4 pt-4">

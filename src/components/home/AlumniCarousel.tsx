@@ -6,7 +6,7 @@ import { Card } from '../common/Card';
 export function AlumniCarousel() {
   return (
     <PageContainer className="py-20">
-      <SectionHeading eyebrow="Alumni Stories" title="Where our members go next" className="mb-10" />
+      <SectionHeading eyebrow="Alumni Stories" title="Member testimonials" className="mb-10" />
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
         {alumniStories.map((alum) => (
           <Card key={alum.id} className="flex gap-4">

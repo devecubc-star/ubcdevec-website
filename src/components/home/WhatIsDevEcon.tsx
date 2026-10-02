@@ -22,7 +22,7 @@ export function WhatIsDevEcon() {
     <PageContainer className="py-20">
       <SectionHeading
         eyebrow="What is Development Economics?"
-        title="The study of why some places are rich and others aren't — and what to do about it"
+        title="Understanding how economies grow, why development differs across places, and what can help close the gap."
         description="Placeholder intro paragraph — replace with the club's own framing."
         align="center"
         className="mb-12"

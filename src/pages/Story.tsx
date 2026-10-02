@@ -39,9 +39,21 @@ export function Story() {
             <div key="3" className="max-w-md">
               <h3 className="font-display text-2xl font-bold text-navy">Where things stand today</h3>
               <p className="mt-3 font-sans text-navy/70">
-                Global poverty has fallen dramatically over the last few decades. But "better" is not the same as
-                "good" — the gap between the richest and poorest countries today is larger than at almost any point
-                in history. Hover over the map to compare countries.
+                Global poverty has fallen dramatically since 1990, and income gaps between countries have narrowed.
+                But “better” is not the same as “good”: poverty and inequality still shape millions of lives.
+                According to the World Bank’s September 2026 update, over 824 million people lived on less than
+                $3 a day in 2024, measured in 2021 purchasing power parity dollars.
+              </p>
+              <p className="mt-3 font-sans text-navy/70">
+                Progress between countries does not guarantee that everyone within them benefits equally.
+                Within-country inequality rose in many countries during the 1990s, but later trends have varied,
+                with some countries seeing further increases and others declines. Deep gaps in income and
+                opportunity remain both within and between countries. Hover over the map to compare countries.
+              </p>
+              <p className="mt-3 font-sans text-xs text-navy/60">
+                Sources: <a className="underline hover:text-cardinal" href="https://blogs.worldbank.org/en/opendata/september-2026-global-poverty-update-from-the-world-bank--one-in">World Bank poverty update</a>
+                {' · '}<a className="underline hover:text-cardinal" href="https://blogs.worldbank.org/en/developmenttalk/inequality-typical-country-last-25-years-strong-increase-followed-recent-decline">Historical inequality trends</a>
+                {' · '}<a className="underline hover:text-cardinal" href="https://blogs.worldbank.org/en/opendata/declining-trends-in-national-inequality">Recent inequality trends</a>
               </p>
             </div>,
           ]}

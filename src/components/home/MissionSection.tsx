@@ -9,7 +9,7 @@ export function MissionSection() {
       <PageContainer className="relative">
         <div className="mx-auto flex max-w-2xl flex-col items-center gap-3 text-center">
           <span className="text-sm font-semibold tracking-wide text-highlight uppercase">Our Mission</span>
-          <h2 className="font-display text-3xl font-bold sm:text-4xl">Placeholder mission statement headline</h2>
+          <h2 className="font-display text-3xl font-bold sm:text-4xl">A community for those who care about development.</h2>
           <p className="text-base text-white/85">Placeholder mission statement body — replace with the club's real mission statement.</p>
         </div>
       </PageContainer>

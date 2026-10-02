@@ -9,7 +9,7 @@ const FOOTER_LINKS = [
   { label: 'Projects', to: ROUTES.projects },
   { label: 'Events', to: ROUTES.events },
   { label: 'Team', to: ROUTES.team },
-  { label: 'Lab', to: ROUTES.lab },
+  { label: 'Sustainable Development Lab', to: ROUTES.lab },
 ];
 
 const SOCIAL_LINKS = [

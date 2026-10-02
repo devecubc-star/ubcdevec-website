@@ -12,7 +12,7 @@ export function Story() {
       <PageContainer className="pt-16">
         <SectionHeading
           eyebrow="Our Story"
-          title="A short history of human progress — and how far there still is to go"
+          title="A short history of human progress, and how far there is still to go"
           description="For nearly all of human history, most people everywhere lived in poverty most of us today would find unimaginable. That changed, recently and unevenly. This page is our attempt to show both halves of that story: how much better things have become, and how awful things can still be."
         />
       </PageContainer>
@@ -24,24 +24,35 @@ export function Story() {
               <h3 className="font-display text-2xl font-bold text-navy">The hockey stick</h3>
               <p className="mt-3 font-sans text-navy/70">
                 For most of the last two thousand years, average incomes barely moved. Then, starting around the
-                Industrial Revolution, something changed — and the change has been accelerating ever since. Hover
-                over the chart to see the numbers behind the curve.
+                time of the Industrial Revolution, a rapid upwards change occurred; this has been accelerating ever
+                since. Hover over the chart to see the numbers behind the curve.
               </p>
             </div>,
             <div key="2" className="max-w-md">
-              <h3 className="font-display text-2xl font-bold text-navy">Uneven, but real, progress</h3>
+              <h3 className="font-display text-2xl font-bold text-navy">Progress at different paces</h3>
               <p className="mt-3 font-sans text-navy/70">
-                Rising average income came with rising life expectancy — but not at the same time, or the same pace,
-                everywhere. Drag the slider through history to see how that gap opened, and how it has started to
-                close.
+                As incomes rose, so did life expectancy, however the progress was far from even. Drag the slider
+                through history to see how these differences emerged, and how meaningful progress has helped narrow
+                the gap over time.
               </p>
             </div>,
             <div key="3" className="max-w-md">
               <h3 className="font-display text-2xl font-bold text-navy">Where things stand today</h3>
               <p className="mt-3 font-sans text-navy/70">
-                Global poverty has fallen dramatically over the last few decades. But "better" is not the same as
-                "good" — the gap between the richest and poorest countries today is larger than at almost any point
-                in history. Hover over the map to compare countries.
+                Global poverty has fallen dramatically since 1990, and income gaps between countries have narrowed.
+                Yet progress does not mean prosperity for everyone. Over 824 million people lived on less than
+                $3 a day in 2024, measured in 2021 purchasing power parity dollars.
+              </p>
+              <p className="mt-3 font-sans text-navy/70">
+                Progress between countries does not guarantee that everyone within them benefits equally.
+                Within-country inequality rose in many countries during the 1990s, but later trends have varied,
+                with some countries seeing further increases and others declines. Deep gaps in income and
+                opportunity remain both within and between countries. Hover over the map to compare countries.
+              </p>
+              <p className="mt-3 font-sans text-xs text-navy/60">
+                Sources: <a className="underline hover:text-cardinal" href="https://blogs.worldbank.org/en/opendata/september-2026-global-poverty-update-from-the-world-bank--one-in">World Bank poverty update</a>
+                {' · '}<a className="underline hover:text-cardinal" href="https://blogs.worldbank.org/en/developmenttalk/inequality-typical-country-last-25-years-strong-increase-followed-recent-decline">Historical inequality trends</a>
+                {' · '}<a className="underline hover:text-cardinal" href="https://blogs.worldbank.org/en/opendata/declining-trends-in-national-inequality">Recent inequality trends</a>
               </p>
             </div>,
           ]}
@@ -56,8 +67,8 @@ export function Story() {
       <PageContainer>
         <SectionHeading
           eyebrow="Current Research"
-          title="What the club is reading and writing about"
-          description="A running list the team updates by hand — see src/data/research.ts."
+          title="What we've been reading and writing recently"
+          description="A running list that the team frequently updates — reach out to us for suggestions or to discuss these readings!"
           className="mb-10"
         />
         <ResearchGrid />

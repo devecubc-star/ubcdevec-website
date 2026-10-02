@@ -1,5 +1,6 @@
 import { ComingSoonLink } from '../common/ComingSoonLink';
 import eventPhoto from '../../assets/photos/home-event.jpg';
+import ubcLogo from '../../assets/logos/ubc.png';
 
 export function Hero() {
   return (
@@ -8,9 +9,12 @@ export function Hero() {
       <div className="absolute inset-0 bg-navy/65" />
       <div className="absolute inset-0 bg-linear-to-r from-navy/80 via-navy/35 to-transparent" />
       <div className="relative mx-auto flex w-full max-w-6xl flex-col items-start gap-6 px-6 py-28 sm:py-36">
-        <span className="rounded-full border border-highlight/40 bg-highlight/10 px-4 py-1 font-sans text-sm font-semibold text-highlight">
-          University of British Columbia
-        </span>
+        <div className="flex items-center gap-3">
+          <img src={ubcLogo} alt="UBC crest" className="h-14 w-14 shrink-0 object-contain" />
+          <span className="rounded-full border border-highlight/40 bg-highlight/10 px-4 py-1 font-sans text-sm font-semibold text-highlight">
+            University of British Columbia
+          </span>
+        </div>
         <h1 className="max-w-3xl font-brand text-4xl leading-[1.18] font-normal tracking-tight sm:text-6xl">
           Understanding our world through development economics.
         </h1>

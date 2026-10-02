@@ -12,7 +12,7 @@ export function Hero() {
           University of British Columbia
         </span>
         <h1 className="max-w-3xl font-brand text-4xl leading-[1.18] font-normal tracking-tight sm:text-6xl">
-          Understanding — and changing — global development.
+          Understanding our world through development economics.
         </h1>
         <p className="max-w-xl font-sans text-lg text-white/80">
           We are UBC’s first and only club bringing together students from all disciplines to discuss the economic, social, and fiscal conditions of the developing world.

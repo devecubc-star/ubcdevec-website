@@ -5,6 +5,7 @@ import pwcLogo from '../../assets/logos/destinations/pwc.webp';
 import eyLogo from '../../assets/logos/destinations/ey.svg';
 import propelLogo from '../../assets/logos/destinations/propel-impact.png';
 import manulifeLogo from '../../assets/logos/destinations/manulife.png';
+import chaiLogo from '../../assets/logos/destinations/chai.png';
 
 // Individual logo regions from the club-provided reference, in a 2048 × 763
 // coordinate space. SVG viewports keep the supplied logos intact and allow
@@ -25,6 +26,7 @@ const destinations: { name: string; region?: string; src?: string; scale?: numbe
   { name: 'EY', src: eyLogo, scale: 1.9 },
   { name: 'Propel Impact', src: propelLogo },
   { name: 'Manulife', src: manulifeLogo, scale: 1.25 },
+  { name: 'Clinton Health Access Initiative', src: chaiLogo },
 ];
 
 export function AlumniDestinations() {

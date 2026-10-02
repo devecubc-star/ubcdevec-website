@@ -24,16 +24,16 @@ export function Story() {
               <h3 className="font-display text-2xl font-bold text-navy">The hockey stick</h3>
               <p className="mt-3 font-sans text-navy/70">
                 For most of the last two thousand years, average incomes barely moved. Then, starting around the
-                Industrial Revolution, something changed — and the change has been accelerating ever since. Hover
-                over the chart to see the numbers behind the curve.
+                time of the Industrial Revolution, a rapid upwards change occurred; this has been accelerating ever
+                since. Hover over the chart to see the numbers behind the curve.
               </p>
             </div>,
             <div key="2" className="max-w-md">
-              <h3 className="font-display text-2xl font-bold text-navy">Uneven, but real, progress</h3>
+              <h3 className="font-display text-2xl font-bold text-navy">Progress at different paces</h3>
               <p className="mt-3 font-sans text-navy/70">
-                Rising average income came with rising life expectancy — but not at the same time, or the same pace,
-                everywhere. Drag the slider through history to see how that gap opened, and how it has started to
-                close.
+                As incomes rose, so did life expectancy, however the progress was far from even. Drag the slider
+                through history to see how these differences emerged, and how meaningful progress has helped narrow
+                the gap over time.
               </p>
             </div>,
             <div key="3" className="max-w-md">
@@ -67,8 +67,8 @@ export function Story() {
       <PageContainer>
         <SectionHeading
           eyebrow="Current Research"
-          title="What the club is reading and writing about"
-          description="A running list the team updates by hand — see src/data/research.ts."
+          title="What we've been reading and writing recently"
+          description="A running list that the team frequently updates — reach out to us for suggestions or to discuss these readings!"
           className="mb-10"
         />
         <ResearchGrid />

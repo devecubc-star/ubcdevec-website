@@ -1,4 +1,5 @@
-import { Route, Routes } from 'react-router-dom';
+import { useLayoutEffect } from 'react';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import { Header } from './components/layout/Header';
 import { Footer } from './components/layout/Footer';
 import { Home } from './pages/Home';
@@ -13,6 +14,12 @@ import { NotFound } from './pages/NotFound';
 import { ROUTES } from './lib/routes';
 
 export function App() {
+  const { pathname } = useLocation();
+
+  useLayoutEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }, [pathname]);
+
   return (
     <div className="flex min-h-screen flex-col">
       <Header />

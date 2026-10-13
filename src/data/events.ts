@@ -20,7 +20,7 @@ export const events: ClubEvent[] = [
   {
     id: 'devtalks-fall-2026',
     title: 'DevTalks: Fall Speaker Series',
-    date: '2026-10-15',
+    date: '2026-10-22',
     time: '6:00 PM',
     location: 'UBC Vancouver Campus',
     description: 'Placeholder description — replace with the real event details.',
@@ -41,7 +41,7 @@ export function getUpcomingEvents(limit?: number): ClubEvent[] {
   return limit ? upcoming.slice(0, limit) : upcoming;
 }
 
-// `new Date("2026-10-15")` parses as UTC midnight, which then renders as the
+// `new Date("2026-10-22")` parses as UTC midnight, which then renders as the
 // previous day in any timezone behind UTC — parse the parts as a local date
 // instead so the displayed date always matches what's in the data file.
 export function formatEventDate(isoDate: string): string {
